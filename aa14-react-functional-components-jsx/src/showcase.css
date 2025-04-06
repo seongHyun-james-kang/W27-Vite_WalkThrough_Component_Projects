@@ -1,0 +1,46 @@
+/* File: src/Showcase.css */
+.showcase-container {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: center;
+    padding: 2rem;
+  }
+  
+  .pokemon-image {
+    width: 400px; 
+    height: 500px;
+    border-radius: .5%;
+    object-fit: contain;
+  }
+
+/*   
+  .pokemon-image {
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+    border-radius: 0.5%;
+  } */
+
+
+  .type-span {
+    padding: .20rem;
+    margin: 0 0.5rem;
+    border-radius: 4px;
+  }
+
+
+/* this helps the content inside the block align vertically */
+
+  .content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+
+/* this adds a little breathing between each row*/
+  .content > * {
+    margin: 3.5rem 0;
+  }
